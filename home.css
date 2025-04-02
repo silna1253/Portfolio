@@ -325,7 +325,7 @@ nav ul li a:hover::after{
  }
  @media only screen and (max-width: 600px){
     #header{
-        background-image: url(new.jpg);
+        background-image: url(pp.jpg);
     }
     .header-text{
         margin-top: 70%;
