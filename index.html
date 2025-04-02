@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport"content="width-device-width,intial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="https://kit.fontawesome.com/4b77bb80e5.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                  
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>BCA Student</p>
+                    <h1> Hi,i am <span>Silna Vincent</span><br>from Thrissur,Kerala</h1>
+                </div>
+            </div>
+        </div>
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+            <img src="port.jpg">
+        </div>
+                <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Enthusiastic BCA student with a strong passion for web development and technology. Proficient in HTML, CSS, JavaScript, and frameworks like React. 
+                    Skilled in creating responsive, user-friendly websites. Recently earned certifications in AI-900 MS Azure AI Fundamentals and Cybersecurity Foundation Course (SkillsBuild).
+                     Eager to apply technical and problem-solving skills in a dynamic work environment. Constantly seeking opportunities to learn and grow.</p>
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2025</span><br>Currently Pursuing Bachelor Of Computer Application(BCA)</li>
+                        <li><span>2023</span><br>Completed plustwo with 97%</li>
+                        <li><span>2021</span><br>Completed SSLC with Full A+</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>NSS</span><br>i am a nss volunteer at plustwo level.</li>
+                        <li><span>CSA</span><br>Active member of csa an organisation in college</li>
+                        <li><span>ARTS</span><br>Participated in oppana at dzone and interzone level secure 1st and 3rd postion</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>TECHNICAL SKILLS</span><br>Web Development (HTML, CSS, JavaScript, React), Data Analysis, Cybersecurity Basics, AI Fundamentals</li>
+                        <li><span>SOFT SKILLS</span><br>Problem-Solving, Creative Thinking, Time Management, Teamwork, Leadership, Effective Communication</li>
+                        <li><span>DESIGN SKILLS</span><br>Web Design, UI/UX Principles</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>AI FUNDAMENTALS</span><br>I Completed a Course "AI-900 MS Azure AI Fundamentals" From infosys spring board </li>
+                        <li><span>MACHINE LEARNING</span><br>I Completed a Course "Introduction To Machine Learning" From NPTEL</li>
+                        <li><span>MS EXCEL</span><br>I Completed a Course "MS Excel Specialist Certification" From infosys spring board</li>
+                        <li><span>DEPLOYING CLOUD</span><br>I Completed a Course "Deploying Cloud Native AWS Components" From infosys spring board</li>
+                        <li><span>CYBERSECURITY</span><br>I Completed a Course "Cybersecurity Foundation Course (SkillsBuild, SkillUp 2024)" From Course era</li>
+
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----Services------>
+<div id ="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web designing</h2>
+                <p>I specialize in web designing using HTML, CSS, and JavaScript, creating visually appealing and fully functional websites. 
+                    My focus is on building clean, responsive, and efficient web pages that ensure a seamless user experience across all devices.
+                    I am passionate about coding and continuously improving my skills to develop modern, fast, and user-friendly web solutions.
+                </p>
+                <a href="web.html">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2>Teaching</h2>
+                <p>I am passionate about teaching and simplifying complex concepts for learners of all levels. 
+                    My goal is to make learning engaging, interactive, and accessible by breaking down topics into easy-to-understand explanations.
+                    With a strong belief in continuous learning, 
+                    I strive to create a supportive and motivating environment where students can grow, experiment, and excel in their chosen field.</p>
+                <a href="teach.html">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Poster Editing & Design</h2>
+                <p>I have a keen eye for detail and a passion for refining content to perfection. 
+                    Whether it's text, images, videos, or web content, I focus on enhancing clarity, coherence, and visual appeal while maintaining the original essence.
+                    With my experience in web designing and teaching, I bring a creative and technical approach to editing, ensuring high-quality results that stand out.</p>
+                <a href="post.html">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="nss.jpg">
+                <div class="layer">
+                    <h3>Volunteer</h3>
+                    <p>I have always been passionate about teamwork, leadership, and community service. 
+                        As an active member of Scouts and Guides during my school years, I developed essential skills in discipline and teamwork
+                        At the HSS level, as an NSS volunteer, I actively engaged in community development programs</p>
+                    <a href="vol.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="exchange.jpg">
+                <div class="layer">
+                    <h3>Resource Exchange Program – Basic Flutter & Canva Training</h3>
+                    <p>As part of a Resource Exchange Program between Christ College and Mary Matha College, Wayanad, I, along with 40 peers, had the opportunity to visit Mary Matha College for a two-day training on Basic Flutter and Canva.
+                         This program allowed us to gain hands-on experience in mobile app development using Flutter and creative design with Canva.
+                         </p>
+                    <a href="ex.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tech.jpg">
+                <div class="layer">
+                    <h3>Zephyrus – Annual Tech Fest</h3>
+                    <p>As a BCA student in the Computer Science department, I actively participate in Zephyrus, our department's annual tech fest, organized by both students and faculty. 
+                        This event is a platform for innovation, creativity, and technical excellence, featuring a variety of engaging activities such as AR treasure hunts, expos, quizzes, fashion shows, and more.
+                    </p>
+                    <a href="tec.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            </div>
+            <a href="see.html" class="btn">See More</a>
+    </div>
+</div>
+<!---contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>silna200520@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>88********</p>
+                <div class="social-icons">
+                    <a href="http://www.linkedin.com/in/silna-vincent"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/silna___vincent?igsh=MXYwMnYzMmYwMWxwcw=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="RESUME.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+           Copyright © Silna Vincent. All Rights Reserved <i class="fa-solid fa-heart"></i>
+        </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.left = "0";
+    }
+    function closemenu(){
+        sidemeu.style.left = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz101p62PW8bMwJFzcPHTaiSC93OCEf0C9DQX7HjVC3myWL2me-iCHWmoN-nFpH4FVw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
