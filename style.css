@@ -89,6 +89,7 @@ nav ul li a:hover::after{
 }
 .about-col2{
     flex-basis: 60%;
+    font-size: 20px;
 } 
 .para{
     text-align: justify;
