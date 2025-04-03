@@ -90,6 +90,9 @@ nav ul li a:hover::after{
 .about-col2{
     flex-basis: 60%;
 } 
+.para{
+    text-align: justify;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
