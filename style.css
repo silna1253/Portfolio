@@ -227,10 +227,10 @@ nav ul li a:hover::after{
     color: #8749f2;
     text-decoration: none;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 60px;
     background: #34065f;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     text-align: center;
 }
