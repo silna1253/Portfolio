@@ -227,12 +227,15 @@ nav ul li a:hover::after{
     color: #8749f2;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 30px;
     background: #34065f;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
+}
+.layer p{
+    text-align: justify;
 }
 .work:hover img{
     transform: scale(1.1);
