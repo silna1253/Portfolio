@@ -194,7 +194,7 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work img{
-    width: 110%;
+    width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -215,13 +215,14 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     transition: height 0.5s;
 
 }
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
+    color: black;
 }
 .layer a{
     margin-top: 20px;
@@ -330,7 +331,7 @@ nav ul li a:hover::after{
  nav .fa-solid{
     display: none;
  }
- @media only screen and (max-width: 700px){
+ @media only screen and (max-width: 600px){
     #header{
         background-image: url(pp.jpg);
     }
@@ -393,6 +394,15 @@ nav ul li a:hover::after{
     }
     .copyright{
         font-size: 14px;
+    }
+     .tab-contents ul li{
+        font-size: 20px;
+    }
+    .tab-contents ul li span{
+        font-size: 18px;
+    }
+    .para{
+        font-size: 20px;
     }
  }
  #msg{
