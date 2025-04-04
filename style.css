@@ -237,7 +237,7 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
-.layer{
+.layer p{
     font-size: 10px
 }
 .work:hover img{
