@@ -400,13 +400,13 @@ nav ul li a:hover::after{
         font-size: 14px;
     }
      .tab-contents ul li{
-        font-size: 20px;
+        font-size: 13px;
     }
     .tab-contents ul li span{
-        font-size: 18px;
+        font-size: 11px;
     }
     .para{
-        font-size: 20px;
+        font-size: 13px;
     }
  }
  #msg{
