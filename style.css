@@ -223,6 +223,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 20px;
     color: black;
+    font-size: 12px;
 }
 .layer a{
     margin-top: 20px;
@@ -235,6 +236,9 @@ nav ul li a:hover::after{
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+.layer{
+    font-size: 10px
 }
 .work:hover img{
     transform: scale(1.1);
