@@ -21,7 +21,7 @@ body{
 
 }
 .container{
-    padding: 10px 10%;
+    padding: 10px 20%;
 }
 nav{
     display: flex;
@@ -130,7 +130,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #8749f2;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
 }
 .tab-contents{
